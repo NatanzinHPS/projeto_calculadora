@@ -12,14 +12,14 @@ public class TesteCalculadora {
 
 
         try {
-            System.out.println(calc.calcular(8, 0, "/")); 
+            System.out.println(calc.calcular(8, 0, "/")); // exceção
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
 
 
         try {
-            System.out.println(calc.calcular(5, 5, "x")); 
+            System.out.println(calc.calcular(5, 5, "x")); // exceção
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
